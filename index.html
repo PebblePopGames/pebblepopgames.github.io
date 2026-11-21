@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebblepop Games</title>
+<meta name="description" content="Pebblepop Games is a tiny indie studio making cosy, colourful games. Play Mini Airport Tycoon, free on Google Play.">
+<link rel="icon" href="https://play-lh.googleusercontent.com/h_BsfIiKQDSiiEQovoFcQrcYH7I8BxVOY_N_6zo2jc3m6DeaJ09fJpgy7igvIlZxHgjABaoSVDZ1-u8yharqxjE=w240">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1b2a44; --soft:#5b6b85; --sky:#eaf4ff; --card:#ffffff; --sun:#ffc93c; --go:#2ea35a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Poppins, system-ui, sans-serif; color:var(--ink);
+         background:linear-gradient(180deg,#bfe3ff 0%,var(--sky) 45%,#fff 100%); min-height:100vh; }
+  header { display:flex; align-items:center; gap:14px; max-width:960px; margin:0 auto; padding:24px 16px; }
+  header img { width:56px; height:56px; border-radius:16px; box-shadow:0 4px 14px rgba(27,42,68,.15); }
+  header h1 { font-size:24px; margin:0; font-weight:800; }
+  main { max-width:960px; margin:0 auto; padding:8px 16px 48px; }
+  .hero { text-align:center; padding:24px 0 32px; }
+  .hero h2 { font-size:clamp(28px,6vw,44px); margin:0 0 8px; font-weight:800; }
+  .hero p { color:var(--soft); margin:0 auto; max-width:560px; font-size:17px; }
+  .game { background:var(--card); border-radius:24px; overflow:hidden; box-shadow:0 12px 40px rgba(27,42,68,.12); }
+  .game .banner { width:100%; display:block; aspect-ratio:16/9; object-fit:cover; }
+  .game .body { display:flex; gap:20px; padding:24px; align-items:flex-start; flex-wrap:wrap; }
+  .game .icon { width:96px; height:96px; border-radius:22px; flex:none; box-shadow:0 4px 14px rgba(27,42,68,.15); }
+  .game .text { flex:1; min-width:220px; }
+  .game h3 { margin:0 0 4px; font-size:26px; font-weight:800; }
+  .tag { display:inline-block; background:#e7f7ed; color:var(--go); font-weight:600; font-size:13px; padding:3px 10px; border-radius:999px; margin-bottom:10px; }
+  .game ul { margin:10px 0 18px; padding-left:20px; color:var(--soft); line-height:1.7; }
+  .btn { display:inline-block; background:var(--go); color:#fff; text-decoration:none; font-weight:600;
+         padding:14px 26px; border-radius:14px; box-shadow:0 4px 0 #23804a; }
+  .btn:hover { filter:brightness(1.05); }
+  footer { text-align:center; color:var(--soft); font-size:14px; padding:24px 16px 40px; }
+  footer a { color:var(--ink); }
+</style>
+</head>
+<body>
+<header>
+  <img src="https://play-lh.googleusercontent.com/h_BsfIiKQDSiiEQovoFcQrcYH7I8BxVOY_N_6zo2jc3m6DeaJ09fJpgy7igvIlZxHgjABaoSVDZ1-u8yharqxjE=w240" alt="Pebblepop Games logo">
+  <h1>Pebblepop Games</h1>
+</header>
+<main>
+  <section class="hero">
+    <h2>Cosy little games, made with love</h2>
+    <p>Pebblepop Games is a one-person indie studio from the UK, making bright, relaxing games you can dip into any time.</p>
+  </section>
+
+  <article class="game">
+    <img class="banner" src="https://play-lh.googleusercontent.com/c16Q66zleHnWqMYllTeIaSGQ01AQVneFGRfKLY588wsC4_O5WAB56pcuOQWWSX__08jaiHgrTlOWU72-B59o=w1280" alt="Mini Airport Tycoon">
+    <div class="body">
+      <img class="icon" src="https://play-lh.googleusercontent.com/h_BsfIiKQDSiiEQovoFcQrcYH7I8BxVOY_N_6zo2jc3m6DeaJ09fJpgy7igvIlZxHgjABaoSVDZ1-u8yharqxjE=w240" alt="Mini Airport Tycoon icon">
+      <div class="text">
+        <span class="tag">Out now on Android</span>
+        <h3>Mini Airport Tycoon</h3>
+        <ul>
+          <li>Grow a tiny town airfield into a busy international hub</li>
+          <li>4 airports to unlock: Sunny Town, Snowy Peaks, Tropical Island and Desert Oasis</li>
+          <li>Upgrade check-in, security, shops, lounges and gates</li>
+          <li>Keeps earning while you're away</li>
+        </ul>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.pebblepopgames.miniairporttycoon">Get it on Google Play</a>
+      </div>
+    </div>
+  </article>
+</main>
+<footer>
+  Contact: <a href="mailto:pebblepopgames@gmail.com">pebblepopgames@gmail.com</a><br>
+  &copy; 2026 Pebblepop Games
+</footer>
+</body>
+</html>
